@@ -17,6 +17,15 @@
   margin-bottom: auto;
 }
 
+.online {
+  composes: status;
+  background-color: green;
+}
+
+.offline {
+  composes: status;
+  background-color: red;
+}
 .avatar {
   width: 130px;
   margin-left: 40px;
